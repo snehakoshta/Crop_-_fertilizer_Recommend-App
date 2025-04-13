@@ -4,7 +4,7 @@ import numpy as np
 import streamlit as st
 
 # Load the trained crop recommendation model
-with open('E:/crop1/random_forest_model.pkl', 'rb') as file:
+with open('E:/crop1/random_forest_model_crop.pkl', 'rb') as file:
     rf_model_crop = pickle.load(file)
 
 # Load the trained fertilizer recommendation model
@@ -90,6 +90,11 @@ if __name__ == "__main__":
       main()
 
 
+
+
+
+
+   
 
 
 
